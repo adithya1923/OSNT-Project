@@ -1,0 +1,33 @@
+{
+    "experiment_name": "fq-codel-ecn-queue-size",
+    "experiment_group": "queue_size",
+
+    "sweep": {
+        "parameter": "qdisc.limit",
+        "values": [
+            50,
+            100,
+            200
+        ]
+    },
+
+    "topology": {
+        "bottleneck_bandwidth": "10mbit",
+        "bottleneck_delay": "10ms",
+        "endpoint_bandwidth": "100mbit",
+        "endpoint_delay": "1ms"
+    },
+
+    "qdisc": {
+        "limit": 100,
+        "flows": 2,
+        "target": "5ms",
+        "interval": "100ms"
+    },
+
+    "traffic": {
+        "start_time": 1,
+        "duration": 20,
+        "number_of_streams": 1
+    }
+}

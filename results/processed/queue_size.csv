@@ -1,0 +1,7 @@
+experiment_group,parameter,parameter_value,condition,run_directory,packets,bytes,drops,ecn_marks,overlimits,requeues,max_qlen,max_backlog,avg_ping_rtt_ms,max_ping_rtt_ms,min_ping_rtt_ms,avg_tcp_rtt_ms,max_tcp_rtt_ms,avg_delivery_rate,avg_sending_rate,max_sending_rate,min_sending_rate
+queue_size,qdisc.limit,50,ecn_off,results/raw/queue_size/50/ecn_off/run_001,15759,23706602,43,0,0,0,36,113770,30.4137,84.0,24.1,29.5931,86.396,9.2346,9.6097,16.32,7.87
+queue_size,qdisc.limit,50,ecn_on,results/raw/queue_size/50/ecn_on/run_001,15873,23880626,0,41,0,0,34,118092,25.2758,45.4,24.1,29.9055,98.778,9.2837,9.6696,19.75,8.95
+queue_size,qdisc.limit,100,ecn_off,results/raw/queue_size/100/ecn_off/run_001,15855,23850542,43,0,0,0,32,110522,25.2347,43.7,24.1,29.6896,85.622,9.3021,9.6607,16.47,8.92
+queue_size,qdisc.limit,100,ecn_on,results/raw/queue_size/100/ecn_on/run_001,15857,23855042,0,42,0,0,36,115194,30.9758,92.6,24.1,29.8021,94.041,9.2626,9.6347,19.74,7.11
+queue_size,qdisc.limit,200,ecn_off,results/raw/queue_size/200/ecn_off/run_001,15772,23725308,44,0,0,0,36,111060,25.3095,42.4,24.1,29.4971,87.338,9.3258,9.6709,18.8,8.69
+queue_size,qdisc.limit,200,ecn_on,results/raw/queue_size/200/ecn_on/run_001,15846,23837364,1,41,0,0,36,114088,25.3547,40.8,24.1,29.9782,100.097,9.3392,9.6926,24.56,7.79

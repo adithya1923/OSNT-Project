@@ -1,0 +1,33 @@
+{
+    "experiment_name": "fq-codel-ecn-delay",
+    "experiment_group": "delay",
+
+    "sweep": {
+        "parameter": "topology.bottleneck_delay",
+        "values": [
+            "5ms",
+            "10ms",
+            "20ms"
+        ]
+    },
+
+    "topology": {
+        "bottleneck_bandwidth": "10mbit",
+        "bottleneck_delay": "10ms",
+        "endpoint_bandwidth": "100mbit",
+        "endpoint_delay": "1ms"
+    },
+
+    "qdisc": {
+        "limit": 100,
+        "flows": 2,
+        "target": "5ms",
+        "interval": "100ms"
+    },
+
+    "traffic": {
+        "start_time": 1,
+        "duration": 20,
+        "number_of_streams": 1
+    }
+}

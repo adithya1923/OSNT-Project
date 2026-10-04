@@ -1,0 +1,7 @@
+condition,run_directory,packets,bytes,drops,ecn_marks,overlimits,requeues,max_qlen,max_backlog,avg_ping_rtt_ms,max_ping_rtt_ms,min_ping_rtt_ms,avg_tcp_rtt_ms,max_tcp_rtt_ms,avg_delivery_rate,avg_sending_rate,max_sending_rate,min_sending_rate
+ecn_off,results/raw/baseline/ecn_off/run_001,15823,23803566,44,0,0,0,34,113550,25.1368,36.1,24.1,29.6903,81.387,9.2704,9.6354,16.33,8.76
+ecn_on,results/raw/baseline/ecn_on/run_001,15744,23684344,2,41,0,0,37,117116,30.2086,86.4,24.1,29.8957,100.049,9.2791,9.6715,24.61,8.1
+ecn_off,results/raw/baseline/ecn_off/run_002,15765,23714282,44,0,0,0,34,115064,25.2421,41.8,24.1,29.6885,89.333,9.1603,9.6297,16.33,7.79
+ecn_on,results/raw/baseline/ecn_on/run_002,15809,23782302,0,42,0,0,33,109008,30.9579,88.4,24.1,29.8013,95.796,9.2906,9.6191,19.72,7.74
+ecn_off,results/raw/baseline/ecn_off/run_003,15798,23765672,44,0,0,0,33,115064,25.4379,45.5,24.1,29.634,88.538,9.2891,9.6268,16.33,7.79
+ecn_on,results/raw/baseline/ecn_on/run_003,15812,23787296,2,45,0,0,41,117116,30.7075,121.0,24.1,30.5383,122.807,9.2122,9.7054,25.29,8.2

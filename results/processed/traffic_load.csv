@@ -1,0 +1,7 @@
+experiment_group,parameter,parameter_value,condition,run_directory,packets,bytes,drops,ecn_marks,overlimits,requeues,max_qlen,max_backlog,avg_ping_rtt_ms,max_ping_rtt_ms,min_ping_rtt_ms,avg_tcp_rtt_ms,max_tcp_rtt_ms,avg_delivery_rate,avg_sending_rate,max_sending_rate,min_sending_rate
+traffic_load,traffic.number_of_streams,1,ecn_off,results/raw/traffic_load/1/ecn_off/run_001,15839,23829166,43,0,0,0,34,113550,30.8516,83.2,24.1,29.7887,90.822,9.1687,9.6463,16.31,8.83
+traffic_load,traffic.number_of_streams,1,ecn_on,results/raw/traffic_load/1/ecn_on/run_001,15802,23773176,0,42,0,0,33,118092,25.4042,41.0,24.1,29.8157,103.785,9.3309,9.6262,19.67,7.17
+traffic_load,traffic.number_of_streams,2,ecn_off,results/raw/traffic_load/2/ecn_off/run_001,15968,24015036,110,0,0,0,44,121120,25.2947,35.9,24.1,34.2652,120.96,4.6661,5.1085,9.7,2.66
+traffic_load,traffic.number_of_streams,2,ecn_on,results/raw/traffic_load/2/ecn_on/run_001,15957,23998370,1,116,0,0,47,130302,34.9181,110.0,24.1,33.4315,115.245,4.6076,4.8546,9.58,4.21
+traffic_load,traffic.number_of_streams,4,ecn_off,results/raw/traffic_load/4/ecn_off/run_001,15983,24026662,306,0,0,0,69,196918,41.8183,220.0,27.2,41.8729,213.422,2.3042,2.8779,8.65,0.95
+traffic_load,traffic.number_of_streams,4,ecn_on,results/raw/traffic_load/4/ecn_on/run_001,16015,24070150,1,346,0,0,66,186320,34.6128,119.0,24.3,44.6924,221.616,2.3214,3.0596,9.46,0.94
